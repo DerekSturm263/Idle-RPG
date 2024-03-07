@@ -1,0 +1,28 @@
+{
+  "name": "idle-rpg",
+  "version": "0.1.0",
+  "description": "Turns your Discord server into an Idle RPG. Adds a leveling system, items, achievements, shops, battles, and more.",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekSturm263/Idle-RPG.git"
+  },
+  "keywords": [
+    "engagement",
+    "game",
+    "slash-commands"
+  ],
+  "author": "DerekSturm263",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerekSturm263/Idle-RPG/issues"
+  },
+  "homepage": "https://github.com/DerekSturm263/Idle-RPG#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "type": "module"
+}
