@@ -1,5 +1,5 @@
 import { SlashCommandBuilder } from "discord.js";
-import { build_help } from "../resources/embeds/help.js";
+import { embed } from "../resources/embeds/inventory.js";
 
 export const command = {
     data: new SlashCommandBuilder()
@@ -7,6 +7,6 @@ export const command = {
         .setDescription('View, use, and manage the items in your inventory.'),
 
     async execute(interaction) {
-        await interaction.reply({ embeds: [ build_help() ], ephemeral: true });
+        await interaction.reply({ embeds: [ embed() ], ephemeral: true });
     }
 };

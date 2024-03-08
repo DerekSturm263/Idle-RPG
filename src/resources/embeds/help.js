@@ -1,6 +1,6 @@
 import { EmbedBuilder } from 'discord.js'
 
-export function build_help() {
+export function embed() {
     return new EmbedBuilder()
         .setColor(0xFFFFFF)
         .setTitle('Welcome to Idle RPG!')
